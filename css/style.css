@@ -564,4 +564,18 @@ footer h3{
     color:#888;
     margin-top:20px;
 
+}.contact-form {
+    display: flex;
+    flex-direction: column; /* Isse cheezein ek dusre ke neeche aayengi */
+    max-width: 500px;       /* Form ko zyada failne se rokega */
+    margin: 0 auto;         /* Form ko center mein rakhega */
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;    /* Beech mein gap dene ke liye */
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid #333;
 }
