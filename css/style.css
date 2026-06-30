@@ -608,4 +608,37 @@ footer h3{
     text-align: center;
     color: white;
     margin-top: 20px;
+}/* Form container ka style */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Input aur Textarea ka design */
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #161b22; /* Dark blue background */
+    border: 1px solid #30363d;
+    color: #c9d1d9;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+/* Send Message button ka style */
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #3498db; /* Wahi light blue color */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
 }
