@@ -578,4 +578,34 @@ footer h3{
     padding: 12px;
     border-radius: 5px;
     border: 1px solid #333;
+}.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #0d1117;
+    border: 1px solid #30363d;
+    color: white;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-links {
+    text-align: center;
+    color: white;
+    margin-top: 20px;
 }
