@@ -215,7 +215,7 @@ nav ul li a:hover{
 #contact p{
     margin:15px 0;
     font-size:18px;
-    color:#ddd;
+    color:#37598d;
 }
 
 /* ==========================
@@ -589,8 +589,8 @@ footer h3{
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #0d1117;
-    border: 1px solid #30363d;
+    background-color: #02142e;
+    border: 1px solid #051e3b;
     color: white;
     border-radius: 5px;
 }
@@ -623,7 +623,7 @@ footer h3{
     width: 100%;
     padding: 15px;
     margin-bottom: 20px;
-    background-color: #161b22; /* Dark blue background */
+    background-color: #1c2a3a; /* Dark blue background */
     border: 1px solid #30363d;
     color: #c9d1d9;
     border-radius: 6px;
